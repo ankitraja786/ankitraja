@@ -20,10 +20,7 @@ function goToLink(event){
 
     if(item.classList[1] === 'git-btn'){
         window.open("https://github.com/ankitraja786", "_blank");
-    }
-    
-    if(item.classList[1] === 'medium-btn'){
-        window.open("https://medium.com/@rajputankit", "_blank")
+ 
     }
     
 }
