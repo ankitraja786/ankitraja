@@ -1,0 +1,130 @@
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+    background: whitesmoke;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 200;
+    /* margin: 0.4em 0; */
+    
+}
+h2{
+    color:#00818a;
+    margin-bottom: 1rem;
+}
+
+/* Landing Page */
+
+.landing-page{
+    text-align: center;
+    background: #222;
+    color: #aaa;
+    padding: 7rem 0;
+}
+
+.resume-btn{
+    margin: 5rem 0 0 0;
+    color: #222;
+    background-color: #00adb5;
+    -webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+    
+}
+
+.resume-btn:hover, .resume-btn:active, .resume-btn:focus{
+    color:#222;
+    background-color:#00acb5c0;
+}
+
+.social-btn{
+    outline: none;
+    border: 4px solid;
+    border-color: #00adb5;
+    border-radius: 50%;
+    color: #00adb5;
+    background: #222;
+    font-size: 2.5rem;
+    padding: 0.55rem 0,6rem;
+    transition: all 0.3s ease;
+    margin-top: 3rem;
+    -webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+.git-btn{
+    margin-left: 1.5rem;
+}
+
+.linkedin-btn{
+    margin-right: 1.5rem;
+   
+}
+
+.social-btn:hover{
+    color:#222;
+    background-color:#00adb5;
+}
+
+
+.fa-github,
+.fa-linkedin-in{
+    pointer-events: none;
+}
+
+.section{
+    margin:100px auto 100px auto; 
+    text-align: left;
+    width: 75%;
+    line-height: 2;
+}
+
+/* About */
+
+.profile-img{
+    width: 20%;
+    float: left;
+    margin: 0px 20px 0px 0px;
+    position: relative;
+}
+
+.contact{
+    text-align: center;
+    line-height: 1;
+}
+
+h5, .contact-head{
+    color: #00adb5;
+}
+
+/* Projects */
+.projects{
+    margin:100px auto 100px auto; 
+    text-align: left;
+    width: 75%;
+    line-height: 2;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    min-height: 35rem;
+    margin: 1rem 0;
+}
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 0.5rem 0;
+    background: #222;
+    color: #aaa;
+}
+.footer-link{
+    color: #aaa;
+    margin-bottom: 1rem;
+}
