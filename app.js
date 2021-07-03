@@ -22,6 +22,10 @@ function goToLink(event){
         window.open("https://github.com/ankitraja786", "_blank");
     }
     
+    if(item.classList[1] === 'medium-btn'){
+        window.open("https://medium.com/@rajputankit", "_blank")
+    }
+    
 }
 
 TxtRotate.prototype.tick = function () {
