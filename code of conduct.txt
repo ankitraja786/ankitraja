@@ -1,4 +1,4 @@
-{//git/rajputankit/@$}
+{//git/ankitraja/@$}
  {secret code}
  s-deployserver
  git-add.
